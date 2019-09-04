@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>猫咪成人网最新地址发布页</title>
+<link rel="shortcut icon" href="/static/favicon.ico">
+<meta name="description" content="最新地址发布页">
+<meta name="keywords" content="最新地址发布页，网址发布器">
+<style>
+body {
+margin: 0px;
+}
+*, *:before, *:after {
+box-sizing: border-box;
+outline: none;
+}
+html, body {
+font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, STHeiti, 华文细黑, sans-serif;
+line-height: 1;
+text-align: center;
+letter-spacing: 1px;
+}
+html {
+font-size: 16px;
+}
+a {
+text-decoration: none;
+color: #fff;
+}
+.container {
+position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: left;
+padding: 50px 0;
+overflow: hidden;
+}
+.c1 {
+background-image: linear-gradient(1deg, #f35d44, #f35c44 51%, #dd0f3a);
+color: #fff;
+}
+.c2 {
+background-color: white;
+color: #666;
+padding-top: 0;
+}
+.content {
+width: 100%;
+max-width: 1024px;
+display: flex;
+justify-content: center;
+padding: 0 100px;
+z-index: 1;
+}
+.c2 .content {
+flex-direction: column;
+}
+.iphone_img {
+max-width: 256px;
+max-height: 512px;
+}
+.right {
+max-width: 518px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.logo_img {
+max-width: 350px;
+width: 80%;
+margin-bottom: 46px;
+}
+.download_content {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 30px 0 20px;
+}
+.download_content .btn {
+/* width: 40%; */
+max-width: 170px;
+/* height: 45px; */
+/* line-height: 45px; */
+text-align: center;
+margin: 7.5px 9px;
+border-radius: 35px;
+background: rgba(255, 255, 255, .3);
+color: #fff;
+font-size: 0.9375em;
+cursor: pointer;
+position: relative;
+padding: 10px;
+}
+.icon {
+width: 20px;
+height: 20px;
+display: inline-block;
+vertical-align: middle;
+margin-right: 2px;
+background-size: cover;
+}
+.android {
+background-image: url(img/pc_ad.png);
+}
+.ios {
+background-image: url(img/pc_ios.png);
+}
+.QandA {
+position: relative;
+display: flex;
+margin-top: 30px;
+margin-bottom: 15px;
+}
+.QandA > div {
+width: 100%;
+display: flex;
+}
+.QandA span {
+margin-right: 32px;
+display: inline-block;
+vertical-align: top;
+}
+.QandA span:first-of-type {
+width: 30px;
+color: #e85151;
+font-size: 2.25rem;
+}
+.QandA .btn {
+position: absolute;
+right: 0;
+top: 0;
+width: 100px;
+height: 32px;
+line-height: 32px;
+color: #E85151;
+border: 1px solid #F7CDCD;
+font-size: 0.9375rem;
+text-align: center;
+border-radius: 50px;
+}
+h1 {
+font-size: 3rem;
+font-weight: 600;
+letter-spacing: 2.8px;
+margin-bottom: 20px;
+}
+h2 {
+font-size: 1.2rem;
+letter-spacing: 1.2px;
+font-weight: 500;
+}
+p {
+font-size: .8rem;
+letter-spacing: 1.2px;
+line-height: 1.6;
+}
+.c2 .main_title {
+display: inline-block;
+position: relative;
+color: #e85151;
+border-bottom: 3px solid #D9D9D9;
+padding-bottom: 15px;
+z-index: 1;
+}
+.c2 .main_title:after {
+content: '';
+position: absolute;
+width: 150px;
+display: block;
+bottom: -3px;
+left: 0;
+border-bottom: 3px solid #e85151;
+}
+.c2 h2 {
+font-size: 2.25rem;
+}
+.c2 h3 {
+font-size: 1.5rem;
+}
+.c2 h2 span {
+color: #666;
+font-size: 13px;
+position: absolute;
+top: 0;
+left: 160px;
+line-height: 1.4;
+}
+.qu {
+font-size: 1.25rem;
+font-weight: 500;
+margin-bottom: 7px;
+}
+.ans {
+line-height: 2.13;
+}
+.line {
+background-color: #eee;
+height: 1px;
+}
+.ground_img {
+width: 100%;
+background-color: #f35d44;
+}
+footer {
+width: 100%;
+height: 200px;
+background-image: url(img/mimi_footer.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+footer img {
+width: 168px;
+}
+footer .footer {
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 100%;
+padding-bottom: 40px;
+color: #fff;
+font-weight: 300;
+}
+footer p {
+font-size: 1rem;
+text-align: left;
+line-height: 1.5;
+}
+.fixed {
+position: fixed;
+display: none;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, .9);
+z-index: 100;
+}
+.fixed.show {
+display: flex;
+}
+.fixed p {
+width: 100%;
+color: #e85151;
+font-size: 36px;
+margin-bottom: 20px;
+}
+.fixed p {
+width: 100%;
+color: #e85151;
+font-size: 36px;
+margin-bottom: 20px;
+}
+.fixed div {
+color: #fff;
+margin-top: 30px;
+max-width: 350px;
+line-height: 1.333;
+}
+.incap_page-tooltip {
+display: none;
+}
+@media (max-width: 992px) {
+.content {
+padding: 0 50px;
+}
+}
+@media (max-width: 767px) {
+html {
+font-size: 14px;
+}
+.iphone_img {
+display: none;
+}
+.right {
+width: 100%;
+margin-left: 0;
+}
+.img_content > div {
+margin: 0 10px;
+}
+.c2 h2 span {
+position: initial;
+display: block;
+margin-top: 10px;
+}
+}
+@media (max-width: 640px) {
+.container {
+padding: 30px 0;
+}
+.c2 {
+padding-bottom: 0;
+}
+.content {
+padding: 0 25px;
+}
+.img_content {
+flex-direction: column;
+margin-top: 25px;
+}
+.img_content > div {
+margin: 10px 0;
+}
+.bank_content img {
+width: 100%;
+}
+.bank_content img:first-of-type {
+margin-right: 0;
+margin-bottom: 15px;
+}
+footer {
+background-position: bottom;
+height: 150px;
+background-size: contain;
+}
+footer .footer {
+padding-bottom: 10px;
+}
+.QandA {
+flex-wrap: wrap;
+}
+.QandA span {
+margin-right: 20px;
+}
+.QandA .btn {
+position: initial;
+margin-top: 10px;
+margin-left: 45px;
+}
+}
+@media (max-width: 320px) {
+html {
+font-size: 12px;
+}
+.content {
+padding: 0 10px;
+}
+.img_content {
+flex-wrap: wrap;
+}
+}
+</style>
+</head>
+<body>
+<div class="container c1">
+<div class="content">
+<div class="right">
+<h2>猫咪成人网 地址发布页最新地址 --- 2019-09-04更新: </h2>
+<div class="download_content">
+<a class="btn pop android3 web_release" href="https://gdian06.com" target="_blank">最新地址</a>
+</div>
+<h2>永久地址</h2>
+<div class="download_content">
+<a class="" href="https://gdian06.com" target="_blank">https://gdian06.com</a>
+</div>
+<h2>历史地址列表</h2>
+<div class="download_content">
+<a class="" href="https://porn91xse.github.io/猫咪成人网.history.html" target="_blank">https://porn91xse.github.io/猫咪成人网.history.html</a>
+</div>
+<div style="display: none">
+<h2>其它网站推荐</h2>
+<div class="download_content">
+<a class="" href="https://6699av.xyz" target="_blank">6699AV</a>
+</div>
+<div class="download_content">
+<a class="" href="https://theporn.cc" target="_blank">ThePorn</a>
+</div>
+</div>
+<div>
+<p>※如遇网站被屏蔽，请更换其他备用地址访问</p>
+</p>
+</div>
+</div>
+<div class="sky"></div>
+</div>
+<div class="container c2">
+<div class="content">
+<h2 class="main_title">常见问题<span>如杀毒软件和浏览器提示本站是恶意站点，是因为网站包含宅男喜闻乐见的内容，请大家相信我们，不会放恶意病毒，本站无广告和收费VIP限制，不会去破坏用户电脑，请大家安心使用！</span>
+</h2>
+<div class="QandA">
+<div>
+<span>Q</span>
+<span>
+<p class="qu">如何更方便的访问“地址发布页”？</p>
+<p class="ans">1.使用“CTRL+D”将本页面添加至您的浏览器收藏夹内或手机截图保存，方便下次访问</p>
+<p class="ans">2.记住发布页域名</p>
+<p class="ans">4.把本站域名手写到您的记事本上</p>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div sytle="display:none">
+<p>Copyright © 2019 All rights reserved.</p>
+</div>
+<div style="display: none;">
+<div id="histats_counter"></div>
+<script type="text/javascript">var _Hasync = _Hasync || [];
+_Hasync.push(['Histats.start', '1,4284073,4,1,120,40,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function () {
+var hs = document.createElement('script');
+hs.type = 'text/javascript';
+hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4284073&101" alt="track hits"
+border="0"></a></noscript>
+<!-- Histats.com END -->
+</body>
+</html>
